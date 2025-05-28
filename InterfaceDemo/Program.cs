@@ -26,7 +26,7 @@ namespace InterfaceDemo
             int b = 20;
 
             int c = a + b;
-            Console.WriteLine("calling Add");
+            Console.WriteLine("calling Add = " + c);
         }
 
         public void sub()
@@ -35,7 +35,7 @@ namespace InterfaceDemo
             int b = 20;
 
             int c = a + b;
-            Console.WriteLine("calling Sub");
+            Console.WriteLine("calling Sub = " + c);
         }
 
         public void Mul()
@@ -44,7 +44,7 @@ namespace InterfaceDemo
             int b = 20;
 
             int c = a + b;
-            Console.WriteLine("calling Mul");
+            Console.WriteLine("calling Mul = " + c);
         }
 
         public void Div()
@@ -53,7 +53,7 @@ namespace InterfaceDemo
             int b = 20;
 
             int c = a + b;
-            Console.WriteLine("calling Div");
+            Console.WriteLine("calling Div = " + c);
         }
         static void Main(string[] args)
         {
