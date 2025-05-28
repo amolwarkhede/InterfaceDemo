@@ -53,7 +53,7 @@ namespace InterfaceDemo
             int b = 20;
 
             int c = a + b;
-            Console.WriteLine("calling Div = " + c);
+            Console.WriteLine(" = " + c);
         }
         static void Main(string[] args)
         {
